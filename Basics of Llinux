@@ -1,1 +1,26 @@
+#Learning Commands So Far
+🔹 Basic Linux Navigation & File Commands
 
+1. pwd – Prints the current working directory (shows where you are in the file system).
+
+2. cd – Changes the current directory.
+  Example: cd Desktop → moves into the Desktop directory.
+  Use cd .. → to go back one directory.
+
+3. ls – Lists files and directories in your current location.
+  ls -l → gives a detailed (long) listing with permissions, owner, and size.
+
+4. find – Searches for files or directories by name or pattern.
+  Example: find / -name "test.txt" → searches the whole system for test.txt.
+
+5. grep – Filters or searches text for specific strings or patterns.
+  Example: grep "error" logfile.txt → finds all lines containing error.
+
+🔹 System & Hardware Information
+
+lspci – Displays detailed information about all PCI (Peripheral Component Interconnect) devices connected to the system.
+  Useful for identifying network cards, GPUs, and other hardware components.
+
+lsusb – Lists all USB devices connected to your system.
+
+dmesg – Displays kernel messages, often used for troubleshooting hardware or driver-related issues.
